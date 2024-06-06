@@ -1,0 +1,29 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    background-color: blueviolet;
+}
+.logo{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+    border: 5px solid white;
+    padding: 5px;
+}
+li {
+    color: white;
+}
+a {
+    color: white;
+}
+header {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
