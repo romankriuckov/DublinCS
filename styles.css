@@ -1,29 +1,69 @@
-html {
-    padding: 0px;
-    margin: 0px;
-    background-color: blueviolet;
+bbody{
+    background-color: #D3D4D8;
 }
-.logo{
-    border-radius: 50%;
-    width: 200px;
-    height:200px;
-    object-fit: cover;
-    border: 5px solid white;
-    padding: 5px;
+.main-container{
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    width: 1500px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 25px;
+justify-content: center;
 }
-li {
+.top-container{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    height: 60px;
+    width: 1400px;
+    margin: auto;
+    border: 1px solid #D3D4D8;
+}
+.one{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid #D3D4D8;
+    align-content: space-around;    
+margin: 5px 7px;
+}
+
+.minus{
+    background-color: yellow;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid #D3D4D8;
+    color: black;
+align-content: space-around;
+margin: 5px 7px;
+}
+.equals{
+    background-color: green;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid #D3D4D8;
     color: white;
+align-content: space-around;
+margin: 5px 7px;
 }
-a {
+.C{
+    background-color: red;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid #D3D4D8;
     color: white;
+align-content: space-around;
+margin: 5px 7px;
 }
-header {
+.footer{
     text-align: center;
 }
-nav {
-    text-align: center;
-}
-ul {
-    list-style-type: none;
-    padding: 0;
-  }
