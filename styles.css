@@ -1,4 +1,4 @@
-bbody{
+body{
     background-color: #D3D4D8;
 }
 .main-container{
@@ -27,8 +27,9 @@ justify-content: center;
     width: 300px;
     margin: auto;
     border: 1px solid #D3D4D8;
-    align-content: space-around;    
+display: flex;
 margin: 5px 7px;
+justify-content: center;
 }
 
 .minus{
@@ -39,8 +40,9 @@ margin: 5px 7px;
     margin: auto;
     border: 1px solid #D3D4D8;
     color: black;
-align-content: space-around;
+display: flex;
 margin: 5px 7px;
+justify-content: center;
 }
 .equals{
     background-color: green;
@@ -50,8 +52,9 @@ margin: 5px 7px;
     margin: auto;
     border: 1px solid #D3D4D8;
     color: white;
-align-content: space-around;
+display: flex;
 margin: 5px 7px;
+justify-content: center;
 }
 .C{
     background-color: red;
@@ -61,9 +64,14 @@ margin: 5px 7px;
     margin: auto;
     border: 1px solid #D3D4D8;
     color: white;
-align-content: space-around;
+display: flex;
 margin: 5px 7px;
+justify-content: center;
 }
 .footer{
     text-align: center;
+display: flex;
+align-content: space-between;
+flex-wrap: wrap;
+justify-content: center;
 }
